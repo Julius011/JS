@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #101010;
+    color: rgb(209, 179, 138);
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.levelContainer {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.equipmentContainer {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.statsContainer {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+label {
+    display: block;
+}
+
+select, input {
+    background-color: transparent;
+    color: rgb(224, 224, 224);
+
+    border-color: rgb(190, 180, 153);
+    border-width: 0.01rem;
+}
